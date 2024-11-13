@@ -1,0 +1,14 @@
+public class ASCIIDemo {
+    public static void main(String[] args) {
+        char ch = 'A'; // Example character
+
+      
+        System.out.println("Character: " + ch);
+        System.out.println("ASCII value: " + (int) ch);
+
+       
+        char lowerCaseCh = (char) (ch + 'a' - 'A');
+        System.out.println("Lowercase Character: " + lowerCaseCh);
+        System.out.println("ASCII value of Lowercase: " + (int) lowerCaseCh);
+    }
+}
